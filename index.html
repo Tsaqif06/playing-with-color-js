@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./apps/style.css">
+    <title>Playing with Color</title>
+</head>
+<body>
+    <div class="cta">
+        <h1>Playing with Color</h1>
+        <div class="cta-btn">
+            <div class="btn" id="changeBlue">Change Blue</div>
+            <div class="btn" id="randomColor">Random Color</div>
+        </div>
+        <div class="cta-normal">
+            <h4>u can also change from this</h4>
+            <input type="color" name="normal" id="normal">
+        </div>
+        <div class="cta-sliders">
+            <h3>u can also :D</h3>
+            <h3>manual input</h3>
+            <input type="text" name="manual" id="manual" value="rgb(50, 50, 50)">
+            <h3>slider input</h3>
+            <h3>value</h3>
+            <p id="valueSlider">rgb(50, 50, 50)</p>
+            <div class="color red"></div>
+            <input class="slider" type="range" name="red" id="red" maxlength="255">
+            <div class="color green"></div>
+            <input class="slider" type="range" name="green" id="green" maxlength="255">
+            <div class="color blue"></div>
+            <input class="slider" type="range" name="blue" id="blue" maxlength="255">
+        </div>
+    </div>
+
+    <script src="./apps/script.js"></script>
+</body>
+</html>
